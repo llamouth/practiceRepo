@@ -39,7 +39,7 @@ console.log(`The tallest is ${findTheUserWhoIsTheTallest(users)}`)
 /** Problem 4:
    Write a function that takes in an array of users and returns the shortest user
    * @param {Object[]} users - An array of users.
-   * @returns {String} The shortest user
+   * @returns {String} The shortest user full name & height
 */
 
 const findTheUserWhoIsTheShortest = (users) => {
