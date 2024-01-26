@@ -131,7 +131,7 @@ const getUserFullName = (users, target) => {
       }else{
           return nameArr.concat(fullName);
       }
-  },[])   
+   },[])   
 
   if(typeof targetName != "string" && target){
       return "User not found"
