@@ -6,7 +6,7 @@ const users = require("./10.5users")
    * @returns {number} The age of the oldest user.
 */
 
-const whoIsTheOldest = (arr) => {
+const whoIsTheOldest = (users) => {
 
 }
 
@@ -18,7 +18,7 @@ console.log(whoIsTheOldest(users))
    * @returns {Object[]} Array of users who wears glasses
 */
 
-const whoWearsGlasses = (arr) => {
+const whoWearsGlasses = (users) => {
 
 }
 
@@ -30,7 +30,7 @@ console.log(whoWearsGlasses(users))
    * @returns {String} The tallest user
 */
 
-const findTheUserWhoIsTheTallest = (array) => {
+const findTheUserWhoIsTheTallest = (users) => {
 
 }
 
@@ -42,7 +42,7 @@ console.log(`The tallest is ${findTheUserWhoIsTheTallest(users)}`)
    * @returns {String} The shortest user
 */
 
-const findTheUserWhoIsTheShortest = (array) => {
+const findTheUserWhoIsTheShortest = (users) => {
 
 }
 
@@ -54,7 +54,7 @@ console.log(`The shortest is ${findTheUserWhoIsTheShortest(users)}`)
    * @returns {Object[]} An array of users over 30
 */
 
-const gettingUsersOver30 = (arr) => {
+const gettingUsersOver30 = (users) => {
 
 }
 
@@ -66,7 +66,7 @@ console.log(gettingUsersOver30(users))
    * @returns {Object{}} An object containing the count of users begininng with the correct last name
 */
 
-const howManyLastNameBginsWithObject = (arr) => {
+const howManyLastNameBginsWithObject = (users) => {
 
 }
 
