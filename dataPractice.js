@@ -47,8 +47,8 @@ console.log(whoWearsGlasses(users))
 const findTheUserWhoIsTheTallest = (array) => {
   let user;
   array.reduce((tallest, users) => {
-    if(users.heightInCm > tallest) {
-      tallest = users.heightInCm
+    if(+users.heightInCm > tallest) {
+      tallest = +users.heightInCm
       user = `${users.firstName} ${users.lastName}`
     }
     return tallest
@@ -67,8 +67,8 @@ console.log(`The tallest is ${findTheUserWhoIsTheTallest(users)}`)
 const findTheUserWhoIsTheShortest = (array) => {
   let user;
   array.reduce((shortest, users) => {
-    if(users.heightInCm < shortest ) {
-      shortest = users.heightInCm
+    if(+users.heightInCm < shortest ) {
+      shortest = +users.heightInCm
       user = `${users.firstName} ${users.lastName}`
     }
     return shortest
@@ -86,7 +86,7 @@ console.log(`The shortest is ${findTheUserWhoIsTheShortest(users)}`)
 
 const gettingUsersOver30 = (arr) => {
   return arr.reduce((arr, user) => {
-    if(user.age >= 30) {
+    if(+user.age >= 30) {
       arr.push(`${user.firstName} ${user.lastName}`)
     }
     return arr
