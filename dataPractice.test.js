@@ -93,6 +93,7 @@ describe("getUserFullName", () => {
 })  
 describe("getUserFullName", () => {
   test('returns "User not found" if the target is not found', () => {
+  expect(dataPractice.getUserFullName(users, "Habibi")).toEqual("User not found");
   expect(dataPractice.getUserFullName(users, "Tony ezekiel")).toEqual("User not found");
 });
 })
