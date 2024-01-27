@@ -28,14 +28,12 @@ console.log(whoIsTheOldest(users))
 */
 
 const whoWearsGlasses = (arr) => {
-  return arr.reduce((obj, user) => {
-      if(!obj[user.eyeColor.toLowerCase()]){
-        obj[user.eyeColor.toLowerCase()] = 1
-      }else {
-        obj[user.eyeColor.toLowerCase()]++
+  return arr.reduce((arr, user) => {
+      if(user.wearsGlasses){
+        arr.push(`${user.firstName} ${user.lastName}`);
       }
-    return obj
-  },{})
+    return arr
+  },[])
 }
 
 console.log(whoWearsGlasses(users))
