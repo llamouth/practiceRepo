@@ -7,7 +7,7 @@ const users = require("./10.5users")
 */
 
 const whoIsTheOldest = (users) => {
-
+   
 }
 
 console.log(whoIsTheOldest(users))
@@ -87,3 +87,14 @@ console.log(getUserFullName(users, "Habibi"))
 console.log(getUserFullName(users, "larry lamouth"))
 console.log(getUserFullName(users, "josh nelson"))
 console.log(getUserFullName(users, "Tony ezekiel"))
+
+
+module.exports = {
+   whoIsTheOldest,
+   whoWearsGlasses,
+   findTheUserWhoIsTheTallest,
+   findTheUserWhoIsTheShortest,
+   gettingUsersOver30,
+   howManyLastNameBginsWithObject,
+   getUserFullName
+};;
