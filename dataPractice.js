@@ -113,7 +113,7 @@ console.log(howManyLastNameBginsWithObject(users))
 /** 
 *Given users, return am array of each of the users full name capitalized or if there is a target value return the target if found in the user data if not found return "User not found".
 *@param {Object[]} = users array
-*@return {Object[], String} = new aray with user's full name || Target if target value is present
+*@return {Object[] || String} = new aray with user's full name || Target if target value is present
 */
 
 const getUserFullName = (users, target) => {
@@ -139,3 +139,8 @@ const getUserFullName = (users, target) => {
 }
 
 console.log(getUserFullName(users))
+console.log(getUserFullName(users, "larry lamouth"))
+console.log(getUserFullName(users, "Habibi"))
+console.log(getUserFullName(users, "riZel eNAd"))
+console.log(getUserFullName(users, "MARKEDIA HINDS"))
+console.log(getUserFullName(users, "Bon Jovi"))
