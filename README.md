@@ -9,7 +9,7 @@ This repository contains JavaScript code to process user data and perform variou
 - [Usage](#usage)
 - [Modules](#modules)
 - [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
