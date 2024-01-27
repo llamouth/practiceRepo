@@ -127,7 +127,7 @@ const getUserFullName = (users, target) => {
               return nameArr;
           }
       }else{
-          return nameArr.concat(fullName);
+          return [...nameArr, fullName];
       }
    },[])   
 
