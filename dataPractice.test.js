@@ -61,7 +61,7 @@ describe("howManyLastNameBginsWithObject", () => {
       A: 3, E: 1, K: 1, T: 1,
       S: 2, B: 1
     };
-  expect(dataPractice.howManyLastNameBginsWithObject(users)).toEqual(expected);
+    expect(dataPractice.howManyLastNameBginsWithObject(users)).toEqual(expected);
   });
 });
 
@@ -82,7 +82,7 @@ describe("getUserFullName", () => {
       'Sadya Andrickson', 'Tasmyn Craig',
       'Vianel De La Cruz', 'Warren Anderson'
     ];
-  expect(dataPractice.getUserFullName(users)).toEqual(expected);
+    expect(dataPractice.getUserFullName(users)).toEqual(expected);
   });
 });
 
