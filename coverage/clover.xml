@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1706394165310" clover="3.2.0">
-  <project timestamp="1706394165311" name="All files">
+<coverage generated="1706412125102" clover="3.2.0">
+  <project timestamp="1706412125102" name="All files">
     <metrics statements="22" coveredstatements="22" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="29" coveredelements="29" complexity="0" loc="22" ncloc="22" packages="1" files="2" classes="2"/>
     <file name="10.5users.js" path="/Users/larrylamouth/Pursuit/SandBox/practiceRepo/10.5users.js">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
