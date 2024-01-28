@@ -141,3 +141,5 @@ const getUserFullName = (users, target) => {
 }
 
 console.log(getUserFullName(users))
+console.log(getUserFullName(users, "Habibi"))
+console.log(getUserFullName(users, "larry lamouth"))
